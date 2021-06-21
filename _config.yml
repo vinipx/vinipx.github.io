@@ -1,15 +1,15 @@
 title: Hi! imvinipx
 description: > # this means to ignore newlines until "baseurl:"
-  Vinipx is a software quality engineer, people manager, and  speaker.
+  Vinipx is a software quality engineer, people manager, and speaker.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vinipx.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: "https://twitter.com/imvinipx" #if your site has a twitter account, enter it here
 
 # Author Settings
-author: vinipx # add your name
+author: @vinipx # add your name
 author-img: vinipx.png # add your photo
-about-author:  Software Quality Engineer <br> & <br> Career Manager # add description
+about-author:  Software Quality Engineer <br> & <br> Career Manager
 social-twitter: imvinipx # add your Twitter handle
 social-facebook: peixotofagundes # add your Facebook handle
 social-github: vinipx # ig handle

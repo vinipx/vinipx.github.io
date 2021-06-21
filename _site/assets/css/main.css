@@ -774,8 +774,8 @@ html {
 
 body {
   font-family: 'Lato', sans-serif;
-  color: #515151;
-  background-color: #fbfbfb;
+  color: #F2F4F3;
+  background-color: #161616;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -889,7 +889,7 @@ table tfoot td {
 }
 
 .post, .article-page {
-  background-color: #fff;
+  background-color: #111111;
 }
 
 ::-moz-selection {
@@ -933,7 +933,7 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: #ffffff;
+  background-color: #161616;
 }
 
 .about {
@@ -942,13 +942,13 @@ table tfoot td {
 }
 
 .about .cover-author-image {
-  width: 100px;
-  height: 100px;
-  margin: 0 auto 10px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 5px;
   -webkit-border-radius: 100%;
           border-radius: 100%;
   overflow: hidden;
-  background-color: #333030;
+  background-color: #ffffff;
 }
 
 .about img {
@@ -969,13 +969,14 @@ table tfoot td {
 }
 
 .about .author-name {
-  font-family: 'PT Serif', serif;
+  font-family: 'Syncopate', sans-serif;
   margin: 0 0 10px;
   position: relative;
-  padding-bottom: 15px;
-  font-size: 16px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 30px;
   text-transform: uppercase;
-  color: #333030;
+  color: #ffffff;
   font-weight: 700;
 }
 
@@ -992,7 +993,7 @@ table tfoot td {
   height: 7px;
   -webkit-border-radius: 100%;
           border-radius: 100%;
-  background-color: #515151;
+  background-color: #ffffff;
 }
 
 .about p {
@@ -1023,7 +1024,7 @@ table tfoot td {
 
 .contact .contact-title {
   position: relative;
-  color: #333030;
+  color: #ffffff;
   font-weight: 400;
   font-size: 12px;
   margin: 0 0 5px;
@@ -1129,11 +1130,14 @@ footer .copyright {
 }
 
 .post:hover {
+  border-style: solid;
+  border-width: thin;
+  border-color: #444;
   -webkit-transform: translate(0px, -2px);
       -ms-transform: translate(0px, -2px);
           transform: translate(0px, -2px);
-  -webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
-          box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+  -webkit-box-shadow: 0 5px 5px -10px rgba(10, 16, 34, 0.2);
+          box-shadow: 0 5px 5px -10px rgba(10, 16, 34, 0.2);
 }
 
 .post .post-thumbnail {
@@ -1164,7 +1168,7 @@ footer .copyright {
 .post .post-content .post-title a {
   font-family: 'PT Serif', serif;
   text-decoration: none;
-  color: #263959;
+  color: #bbb;
 }
 
 .post .post-content p {
